@@ -1,0 +1,174 @@
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 81px;
+  max-width: 1231px;
+  font-family: 'Istok Web';
+  margin: 0 auto;
+}
+.navbar a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 36px;
+  margin-left: 29px;
+  margin-right: 26px;
+  
+}
+
+.header_title{
+  margin: 0;
+  display:flex;
+  align-items: center;
+  color: #013456;
+  font-size:40px;
+  font-weight: 700;
+  }
+.nav_icon{
+      margin-left: 6px;
+      color: #FFD233;
+  }
+  .menu-ico,
+  .close-ico{
+    display: none;
+  }
+  .wrapper{
+    display: flex;
+  }
+  .wrapper aside{
+    margin-top: 46px;
+    position: relative;
+    width: 50%;
+  }
+  .circle{
+    Width:785px;
+    Height:785px;
+    border-radius: 50%;
+    background-color: #FFD233;
+    position: absolute;
+    right:84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   main{
+    margin-top: 91px;
+    width: 50%;
+    max-width: 575px;
+  }
+  main h1{
+    font-size:48px;
+    color:#013456 ;
+    font-family: 'Poppins';
+    font-weight: 700;
+     margin-bottom: 14px;
+  }
+  main p{
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .buttons_buy_now{
+    border: none;
+    border-radius: 50px;
+    background: #FAD405;
+    padding: 16px 47px;
+    color:#013456;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .buttons_read_nore{
+    border: none;
+    border-radius: 50px;
+    background: #013456;
+    padding: 16px 47px;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .book {
+    height: 785px;
+    margin-bottom: 54px;
+}
+  @media screen and (max-width: 1400px){
+   header{
+    width: 90%;
+    padding-top: 20px;
+   }
+   .navbar{
+    position: absolute;
+    background-color: #013456;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+   }
+   .navbar a{
+    color: #FAD405;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+   }
+   .menu-ico{
+    display: block;
+    font-size: 30px;
+    line-height: 45px;
+    color:#013456;
+    cursor: pointer;
+  }
+   .close-ico{
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    color:#FAD405;
+    z-index: 1;
+    top: 20px;
+    right:20px;
+    cursor: pointer;
+  }
+  .wrapper{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+  }
+  .wrapper main,.wrapper aside{
+    width: 90%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .circle img{
+   width:150px;
+  }
+  .circle{
+    Width:300px;
+    Height:300px;
+    border-radius: 50%;
+    background-color: #FFD233;
+    position: initial;
+    margin:0 auto;
+  }
+  .book{
+    height:230px;
+  }
+  main h1{
+    font-size: 24px;
+  }
+  .buttons button{
+    padding:16px 25px;
+    font-size: 20px;
+  }
+
+  }
+
