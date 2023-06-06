@@ -100,7 +100,7 @@ header{
     height: 785px;
     margin-bottom: 54px;
 }
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 800px){
    header{
     width: 90%;
     padding-top: 20px;
